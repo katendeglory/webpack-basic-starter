@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "git:push": "git add . && git commit -am \"Yet another commit\" && git push origin main",
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack serve --config ./bundler/webpack.dev.js"
   },
